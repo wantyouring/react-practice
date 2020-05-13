@@ -1,9 +1,10 @@
 import React from 'react';
+import GoogleMap from './components/google_map';
 
 function App() {
   return (
     <div className="App">
-      basic project
+      <GoogleMap lat={35.907757} lng={127.766922} zoom={5}/>
     </div>
   );
 }
